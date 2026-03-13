@@ -1,0 +1,33 @@
+.Perfil {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.Perfil:hover {
+  transform: translateY(-5px);
+}
+
+.Perfil h2 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 2em;
+}
+
+.Perfil p {
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.Perfil p:last-child {
+  margin-bottom: 0;
+}
