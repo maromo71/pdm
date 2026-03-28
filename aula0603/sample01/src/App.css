@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  padding: 25px;
+}
+h1 {
+  font-size: 3rem;
+  background-color: springgreen;
+  border-radius: 10px;
+  padding: 20px;
+}
+h3{
+  text-align: center;
+  color: red;
+  font-size: 22px;
+}

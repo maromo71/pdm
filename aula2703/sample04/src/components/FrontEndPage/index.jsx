@@ -2,7 +2,7 @@ import './style.css'
 import BackButton from '../BackButton'
 
 const FrontEndPage = () => (
-    <div>
+    <div className="container">
         <h1>React.js</h1>
         <p>
             O React.js é Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias minima reprehenderit sit sapiente. Quo odit vitae, excepturi nesciunt aspernatur ad rem, illo libero aut placeat commodi repellendus veritatis voluptates eveniet!

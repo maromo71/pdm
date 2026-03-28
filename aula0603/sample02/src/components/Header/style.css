@@ -1,0 +1,14 @@
+header {
+    width: 100vh;
+    margin: 5px;
+    padding: 10px;
+    background-color: #296067;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
