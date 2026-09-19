@@ -1,0 +1,78 @@
+/* ============================================
+   Perfil — Estilização Elegante
+   Componente: Perfil (Maromo)
+   ============================================ */
+
+/* Reset básico e fonte do projeto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Cartão de Perfil --- */
+.App {
+    background: #ffffff;
+    max-width: 420px;
+    width: 90%;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.App:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Nome do Perfil --- */
+.App h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2d2d44;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-bottom: 0.75rem;
+}
+
+/* Linha decorativa abaixo do nome */
+.App h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 0.75rem auto 0;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+/* --- Descrição --- */
+.App p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6b6b80;
+    font-weight: 400;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 480px) {
+    .App {
+        padding: 2rem 1.5rem;
+    }
+
+    .App h2 {
+        font-size: 1.5rem;
+    }
+}

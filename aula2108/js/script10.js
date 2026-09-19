@@ -5,7 +5,6 @@ let p1 = document.getElementById("p1")
 
 function somar(x, y){
     let result = x + y
-    alert(result)
     //podemos apresentar o resultado no html
     p1.innerHTML = "Resultado: " + result
 }

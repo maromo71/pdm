@@ -1,0 +1,21 @@
+A) Qual é a principal diferença entre os métodos 
+getElementById(id) e querySelectorAll(selector)
+quanto ao tipo de retorno que oferecem?.
+
+- getElementById(id) - retorna um unico elemento ou null
+  se nao encontrar. Nota: id eh unico no html
+
+- querySelectorAll(selector) - retorna um vetor com elementos
+  chamado NodeList []. mesmo com 0 ou 1 retornado.
+
+
+B) Descreva a utilidade do método addEventListener. 
+Por que ele é considerado uma forma flexível de 
+manipular eventos em uma página web?.
+
+- O método addEventListener é usado para vincular (ligar)
+ uma função a um evento de um elemento, 
+ sem sobrescrever outros manipuladores existentes.
+- É flexível, principalmente por que permite múltiplos 
+  eventos no mesmo elemento, exemplo elemento botao:
+  evento click, hover, mouseover, etc.

@@ -1,0 +1,9 @@
+div:has(> .card) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  flex: 1;
+}
